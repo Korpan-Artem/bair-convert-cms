@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_product_color_sliders",
+  "info": {
+    "name": "colorSlider",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "imageColor": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
